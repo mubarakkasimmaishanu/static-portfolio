@@ -144,13 +144,11 @@ if (contactForm) {
 
 // ─── Hero Role Rotator ──────────────────────────────
 const roles = [
-    'Software Engineer',
-    'Web Application Developer',
-    'Data Analyst',
-    'Mathematics Teacher',
-    'Laravel Expert',
-    'Yii2 Developer',
-    'Business Solutions Architect'
+    'Mobile App Developer',
+    'Senior Software Engineer',
+    'React Native Expert',
+    'SaaS Platform Architect',
+    'Full-Stack Developer'
 ];
 
 const roleRotator = document.getElementById('role-rotator');
