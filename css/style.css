@@ -15,38 +15,40 @@
    Design Tokens / Variables
    ============================================ */
 :root {
-    /* Brand Palette — Vibrant Modern */
-    --primary: #4F46E5; /* Indigo */
-    --primary-light: #818CF8;
-    --primary-dark: #3730A3;
-    --primary-glow: rgba(79, 70, 229, 0.2);
-    --accent: #EC4899; /* Pink */
-    --accent-light: #F472B6;
-    --accent-glow: rgba(236, 72, 153, 0.2);
+    /* Executive Brand Palette — Slate & Electric Blue/Cyan */
+    --primary: #2563EB; /* Vibrant Royal Blue */
+    --primary-light: #3B82F6;
+    --primary-dark: #1D4ED8;
+    --primary-glow: rgba(37, 99, 235, 0.15);
+    
+    --accent: #06B6D4; /* Crisp Cyan */
+    --accent-light: #22D3EE;
+    --accent-dark: #0891B2;
+    --accent-glow: rgba(6, 182, 212, 0.15);
 
-    /* Neutral palette */
+    /* Neutral palette — Crisp Architectural Light Mode */
     --text-heading: #0F172A;
     --text-body: #334155;
     --text-muted: #64748B;
-    --bg-page: #F8FAFC;
+    --bg-page: #FAFBFD;
     --bg-section: #FFFFFF;
-    --bg-card: rgba(255, 255, 255, 0.7);
-    --bg-surface: rgba(255, 255, 255, 0.5);
-    --border: rgba(226, 232, 240, 0.8);
-    --border-subtle: rgba(241, 245, 249, 0.5);
+    --bg-card: #FFFFFF;
+    --bg-surface: #F1F5F9;
+    --border: rgba(226, 232, 240, 0.9);
+    --border-subtle: rgba(241, 245, 249, 0.7);
 
-    /* Glassmorphism */
-    --glass-bg: rgba(255, 255, 255, 0.65);
-    --glass-border: rgba(255, 255, 255, 0.4);
-    --glass-blur: blur(12px);
+    /* Glassmorphism Light */
+    --glass-bg: rgba(255, 255, 255, 0.85);
+    --glass-border: rgba(226, 232, 240, 0.8);
+    --glass-blur: blur(16px);
 
-    /* Shadows */
+    /* Layered Elevation Shadows */
     --shadow-xs: 0 1px 2px rgba(15, 23, 42, 0.04);
-    --shadow-sm: 0 4px 6px -1px rgba(15, 23, 42, 0.05);
-    --shadow-md: 0 10px 15px -3px rgba(15, 23, 42, 0.08);
-    --shadow-lg: 0 20px 25px -5px rgba(15, 23, 42, 0.1);
-    --shadow-xl: 0 25px 50px -12px rgba(15, 23, 42, 0.15);
-    --shadow-glow: 0 0 40px var(--primary-glow);
+    --shadow-sm: 0 4px 10px rgba(15, 23, 42, 0.05);
+    --shadow-md: 0 10px 20px -3px rgba(15, 23, 42, 0.07);
+    --shadow-lg: 0 20px 30px -5px rgba(15, 23, 42, 0.09);
+    --shadow-xl: 0 25px 50px -12px rgba(15, 23, 42, 0.12);
+    --shadow-glow: 0 10px 30px var(--primary-glow);
 
     /* Radii */
     --radius-sm: 0.5rem;
@@ -56,10 +58,10 @@
     --radius-full: 9999px;
 
     /* Transitions */
-    --ease: cubic-bezier(0.4, 0, 0.2, 1);
+    --ease: cubic-bezier(0.16, 1, 0.3, 1);
     --transition-fast: 0.15s var(--ease);
-    --transition: 0.3s var(--ease);
-    --transition-slow: 0.5s var(--ease);
+    --transition: 0.25s var(--ease);
+    --transition-slow: 0.4s var(--ease);
 
     /* Layout */
     --max-width: 1200px;
@@ -67,96 +69,106 @@
 }
 
 /* ============================================
-   Dark Theme
+   Dark Theme — Deep Obsidian & Platinum
    ============================================ */
 html[data-theme="dark"] {
     --text-heading: #F8FAFC;
-    --text-body: #CBD5E1;
-    --text-muted: #94A3B8;
+    --text-body: #94A3B8;
+    --text-muted: #64748B;
     
-    /* Deep space background */
-    --bg-page: #0B0F19;
-    --bg-section: #111827;
-    --bg-card: rgba(30, 41, 59, 0.7);
-    --bg-surface: rgba(15, 23, 42, 0.6);
-    --border: rgba(51, 65, 85, 0.6);
-    --border-subtle: rgba(30, 41, 59, 0.5);
+    /* Obsidian dark background */
+    --bg-page: #0B0D12;
+    --bg-section: #11141C;
+    --bg-card: #161A26;
+    --bg-surface: #1E2435;
+    --border: rgba(255, 255, 255, 0.08);
+    --border-subtle: rgba(255, 255, 255, 0.04);
     
-    --primary: #6366F1;
-    --primary-light: #818CF8;
-    --primary-dark: #4F46E5;
-    --primary-glow: rgba(99, 102, 241, 0.25);
-    --accent: #F472B6;
-    --accent-light: #F9A8D4;
-    --accent-glow: rgba(244, 114, 182, 0.25);
+    --primary: #3B82F6;
+    --primary-light: #60A5FA;
+    --primary-dark: #2563EB;
+    --primary-glow: rgba(59, 130, 246, 0.25);
+
+    --accent: #06B6D4;
+    --accent-light: #38BDF8;
+    --accent-dark: #0891B2;
+    --accent-glow: rgba(6, 182, 212, 0.22);
 
     /* Glassmorphism Dark */
-    --glass-bg: rgba(15, 23, 42, 0.65);
+    --glass-bg: rgba(17, 20, 28, 0.85);
     --glass-border: rgba(255, 255, 255, 0.08);
 
     --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.4);
-    --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
-    --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.6);
-    --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.7);
-    --shadow-xl: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
+    --shadow-sm: 0 4px 10px rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 10px 20px -3px rgba(0, 0, 0, 0.5);
+    --shadow-lg: 0 20px 30px -5px rgba(0, 0, 0, 0.6);
+    --shadow-xl: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+    --shadow-glow: 0 12px 35px var(--primary-glow);
 }
 
-/* Dark mode — fix elements that use primary as BACKGROUND (white bg + white text = invisible) */
+/* Dark Mode Cohesive Element Enhancements */
 html[data-theme="dark"] .cta-button {
-    background: linear-gradient(135deg, #ffffff 0%, #e0e0e0 100%);
-    color: #111111;
-    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+    background: linear-gradient(135deg, #3B82F6 0%, #2563EB 100%);
+    color: #ffffff;
+    box-shadow: 0 4px 20px rgba(59, 130, 246, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 html[data-theme="dark"] .cta-button:hover {
-    box-shadow: 0 8px 30px rgba(255, 255, 255, 0.15);
+    background: linear-gradient(135deg, #60A5FA 0%, #3B82F6 100%);
+    box-shadow: 0 8px 30px rgba(59, 130, 246, 0.5);
 }
 
 html[data-theme="dark"] .submit-btn {
-    background: linear-gradient(135deg, #ffffff 0%, #e0e0e0 100%);
-    color: #111111;
+    background: linear-gradient(135deg, #3B82F6 0%, #2563EB 100%);
+    color: #ffffff;
+    box-shadow: 0 4px 20px rgba(59, 130, 246, 0.3);
 }
 
 html[data-theme="dark"] .submit-btn:hover {
-    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.12);
+    box-shadow: 0 6px 25px rgba(59, 130, 246, 0.45);
 }
 
 html[data-theme="dark"] .project-btn {
-    background: #ffffff;
-    color: #111111;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
 }
 
 html[data-theme="dark"] .project-btn:hover {
-    background: #e0e0e0;
+    background: #3B82F6;
+    color: #ffffff;
+    border-color: #3B82F6;
 }
 
 html[data-theme="dark"] .service-card:hover .service-icon {
-    background: #ffffff;
-    color: #111111;
+    background: rgba(59, 130, 246, 0.2);
+    color: #60A5FA;
 }
 
 html[data-theme="dark"] .service-card::before {
-    background: linear-gradient(90deg, #ffffff, #888888);
+    background: linear-gradient(90deg, #3B82F6, #06B6D4);
 }
 
 html[data-theme="dark"] .about-cta {
-    background: rgba(255, 255, 255, 0.1);
-    color: #ffffff;
-    border-color: rgba(255, 255, 255, 0.2);
+    background: rgba(59, 130, 246, 0.15);
+    color: #60A5FA;
+    border-color: rgba(59, 130, 246, 0.3);
 }
 
 html[data-theme="dark"] .about-cta:hover {
-    background: #ffffff;
-    color: #111111;
+    background: #3B82F6;
+    color: #ffffff;
 }
 
 html[data-theme="dark"] .story-nav-toggle {
-    background: #ffffff;
-    color: #111111;
+    background: #3B82F6;
+    color: #ffffff;
 }
 
 html[data-theme="dark"] .story-nav-toggle:hover {
-    background: #e0e0e0;
+    background: #2563EB;
 }
 
 html[data-theme="dark"] .settings-toggle:hover {
@@ -230,41 +242,43 @@ html[data-theme="dark"] .hire-cta-btn {
 
 /* Dark mode — Hero section overrides */
 html[data-theme="dark"] .hero {
-    background: linear-gradient(135deg, #0a0a0a 0%, #111111 40%, #1a1a1a 100%);
+    background: radial-gradient(circle at 50% 20%, #162032 0%, #0B0D12 70%);
 }
 
 html[data-theme="dark"] .hero-badge {
-    background: rgba(255, 255, 255, 0.08);
-    border-color: rgba(255, 255, 255, 0.15);
-    color: #cccccc;
+    background: rgba(59, 130, 246, 0.1);
+    border-color: rgba(59, 130, 246, 0.25);
+    color: #93C5FD;
 }
 
 html[data-theme="dark"] .badge-dot {
-    background: #ffffff;
+    background: #10B981;
+    box-shadow: 0 0 10px rgba(16, 185, 129, 0.6);
 }
 
 html[data-theme="dark"] .hero-greeting {
-    color: #aaaaaa;
+    color: #94A3B8;
 }
 
 html[data-theme="dark"] .hero-name {
-    color: #ffffff;
+    color: #F8FAFC;
 }
 
 html[data-theme="dark"] .hero-title-line {
-    background: linear-gradient(135deg, #ffffff 0%, #aaaaaa 100%);
+    background: linear-gradient(135deg, #60A5FA 0%, #38BDF8 100%);
     -webkit-background-clip: text;
     background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 html[data-theme="dark"] .role-tag {
-    background: rgba(255, 255, 255, 0.06);
-    border-color: rgba(255, 255, 255, 0.12);
-    color: #cccccc;
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: #CBD5E1;
 }
 
 html[data-theme="dark"] .hero-description {
-    color: rgba(255, 255, 255, 0.6);
+    color: #94A3B8;
 }
 
 html[data-theme="dark"] .hero-link {
@@ -273,30 +287,30 @@ html[data-theme="dark"] .hero-link {
 }
 
 html[data-theme="dark"] .cv-button {
-    background: rgba(255, 255, 255, 0.06);
-    color: #ffffff;
+    background: rgba(255, 255, 255, 0.05);
+    color: #F8FAFC;
     border-color: rgba(255, 255, 255, 0.15);
 }
 
 html[data-theme="dark"] .cv-button:hover {
-    background: rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.1);
     border-color: rgba(255, 255, 255, 0.3);
 }
 
 html[data-theme="dark"] .stat-number {
-    color: #ffffff;
+    color: #F8FAFC;
 }
 
 html[data-theme="dark"] .stat-suffix {
-    color: #cccccc;
+    color: #38BDF8;
 }
 
 html[data-theme="dark"] .stat-label {
-    color: rgba(255, 255, 255, 0.45);
+    color: #64748B;
 }
 
 html[data-theme="dark"] .stat-divider {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.08);
 }
 
 html[data-theme="dark"] .hero-scroll-indicator {
@@ -328,9 +342,11 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     color: var(--text-heading);
-    line-height: 1.2;
+    line-height: 1.25;
     font-weight: 700;
+    letter-spacing: -0.02em;
 }
 
 a {
@@ -2446,4 +2462,43 @@ body {
 .project-image.has-carousel img {
     width: auto;
     transform: none !important;
+}
+
+/* ============================================
+   Floating WhatsApp Action Button
+   ============================================ */
+.whatsapp-float {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 56px;
+    height: 56px;
+    background-color: #25D366;
+    color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.85rem;
+    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+    z-index: 999;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    text-decoration: none;
+}
+
+.whatsapp-float:hover {
+    background-color: #20BA5A;
+    color: #FFFFFF;
+    transform: translateY(-4px) scale(1.08);
+    box-shadow: 0 8px 25px rgba(37, 211, 102, 0.55);
+}
+
+.whatsapp-float:active {
+    transform: translateY(-1px) scale(0.98);
+}
+
+/* Position adjustment when reading settings toggle is present */
+.story-container ~ .whatsapp-float,
+body:has(.story-container) .whatsapp-float {
+    bottom: 5.5rem;
 }

@@ -224,97 +224,49 @@ const fadeObserver = new IntersectionObserver((entries) => {
 
 fadeElements.forEach(el => fadeObserver.observe(el));
 
-// ─── Hero Particle Canvas ───────────────────────────
+// ─── Hero Subtle Ambient Grid Canvas ───────────────────────────
 const canvas = document.getElementById('hero-canvas');
 if (canvas) {
     const ctx = canvas.getContext('2d');
-    let particles = [];
     let animFrameId;
+    let offset = 0;
 
     function resizeCanvas() {
         const hero = canvas.parentElement;
+        if (!hero) return;
         canvas.width = hero.offsetWidth;
         canvas.height = hero.offsetHeight;
     }
 
-    function createParticles() {
-        particles = [];
-        const count = Math.min(Math.floor(canvas.width * canvas.height / 12000), 80);
-        for (let i = 0; i < count; i++) {
-            particles.push({
-                x: Math.random() * canvas.width,
-                y: Math.random() * canvas.height,
-                radius: Math.random() * 1.5 + 0.5,
-                vx: (Math.random() - 0.5) * 0.3,
-                vy: (Math.random() - 0.5) * 0.3,
-                opacity: Math.random() * 0.4 + 0.1
-            });
-        }
-    }
-
-    function drawParticles() {
+    function drawGrid() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
+        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        
+        ctx.strokeStyle = isDark ? 'rgba(255, 255, 255, 0.035)' : 'rgba(15, 23, 42, 0.04)';
+        ctx.lineWidth = 1;
 
-        particles.forEach((p, i) => {
-            p.x += p.vx;
-            p.y += p.vy;
+        const gridSize = 50;
+        offset = (offset + 0.1) % gridSize;
 
-            if (p.x < 0) p.x = canvas.width;
-            if (p.x > canvas.width) p.x = 0;
-            if (p.y < 0) p.y = canvas.height;
-            if (p.y > canvas.height) p.y = 0;
-
+        for (let x = offset; x < canvas.width; x += gridSize) {
             ctx.beginPath();
-            ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-            const pColor = isDark ? `rgba(200, 200, 200, ${p.opacity})` : `rgba(80, 80, 80, ${p.opacity})`;
-            ctx.fillStyle = pColor;
-            ctx.fill();
+            ctx.moveTo(x, 0);
+            ctx.lineTo(x, canvas.height);
+            ctx.stroke();
+        }
 
-            // Draw connections
-            for (let j = i + 1; j < particles.length; j++) {
-                const p2 = particles[j];
-                const dx = p.x - p2.x;
-                const dy = p.y - p2.y;
-                const dist = Math.sqrt(dx * dx + dy * dy);
+        for (let y = offset; y < canvas.height; y += gridSize) {
+            ctx.beginPath();
+            ctx.moveTo(0, y);
+            ctx.lineTo(canvas.width, y);
+            ctx.stroke();
+        }
 
-                if (dist < 120) {
-                    ctx.beginPath();
-                    ctx.moveTo(p.x, p.y);
-                    ctx.lineTo(p2.x, p2.y);
-                    const lColor = isDark ? `rgba(180, 180, 180, ${0.06 * (1 - dist / 120)})` : `rgba(80, 80, 80, ${0.06 * (1 - dist / 120)})`;
-                    ctx.strokeStyle = lColor;
-                    ctx.lineWidth = 0.5;
-                    ctx.stroke();
-                }
-            }
-        });
-
-        animFrameId = requestAnimationFrame(drawParticles);
+        animFrameId = requestAnimationFrame(drawGrid);
     }
 
     resizeCanvas();
-    createParticles();
-    drawParticles();
+    drawGrid();
 
-    window.addEventListener('resize', () => {
-        resizeCanvas();
-        createParticles();
-    });
-
-    // Stop animation when hero is no longer visible for perf
-    const heroSection = document.getElementById('home');
-    if (heroSection) {
-        const heroObs = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    if (!animFrameId) drawParticles();
-                } else {
-                    cancelAnimationFrame(animFrameId);
-                    animFrameId = null;
-                }
-            });
-        }, { threshold: 0 });
-        heroObs.observe(heroSection);
-    }
+    window.addEventListener('resize', resizeCanvas);
 }
