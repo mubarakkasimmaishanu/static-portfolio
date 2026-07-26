@@ -1,9 +1,4 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "cleanUrls": true,
-  "rewrites": [
-    { "source": "/story", "destination": "/story.html" },
-    { "source": "/resources", "destination": "/resources.html" }
-  ]
+  "buildCommand": "vite build",
+  "outputDirectory": "dist"
 }
