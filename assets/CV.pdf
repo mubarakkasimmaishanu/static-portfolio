@@ -1,93 +1,273 @@
-%PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+%PDF-1.3
+%âãÏÓ
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R
+/PageMode /UseNone
+/Pages 2 0 R
+/Type /Catalog
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Count 1
+/Kids [ 3 0 R ]
+/Type /Pages
 >>
 endobj
 3 0 obj
 <<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+/Annots [ 4 0 R 5 0 R 6 0 R 7 0 R ]
+/Contents 8 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Parent 2 0 R
+/Resources <<
+/Font 9 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
 >>
 endobj
 4 0 obj
 <<
-/Contents 9 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 8 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/A <<
+/S /URI
+/Type /Action
+/URI (mailto\072khankingmubcy\100gmail\056com)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 170.897 738.0898 283.559 748.8898 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 5 0 obj
 <<
-/Contents 10 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 8 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057github\056com\057mubarakkasimmaishanu)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 50 726.0898 194.045 736.8898 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 6 0 obj
 <<
-/PageMode /UseNone /Pages 8 0 R /Type /Catalog
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057mubarakdev\056vercel\056app\057)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 201.389 726.0898 294.926 736.8898 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 7 0 obj
 <<
-/Author (\(anonymous\)) /CreationDate (D:20260104102112+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260104102112+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
-  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057play\056google\056com\057store\057apps\057details\077id\075com\056saukiglobal\056app)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 120.243 590.4898 171.9895 601.8898 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 8 0 obj
 <<
-/Count 2 /Kids [ 4 0 R 5 0 R ] /Type /Pages
+/Length 4088
 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 50 770.8898 cm
+q
+.145098 .152941 .121569 rg
+BT 1 0 0 1 0 4 Tm /F2 25 Tf 29 TL (Mubarak Kasim Maishanu) Tj T* ET
+Q
+Q
+q
+1 0 0 1 50 752.8898 cm
+q
+BT 1 0 0 1 0 3 Tm 14 TL /F1 11 Tf .270588 .305882 .203922 rg (Software Engineer | Backend, Web & Mobile) Tj T* ET
+Q
+Q
+q
+1 0 0 1 50 724.8898 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf .270588 .305882 .203922 rg (Zaria, Kaduna State, Nigeria | ) Tj (khankingmubcy@gmail.com) Tj ( | +234 906 850 0544) Tj  T* (github.com/mubarakkasimmaishanu) Tj ( | ) Tj (mubarakdev.vercel.app) Tj T* ET
+Q
+Q
+q
+1 0 0 1 50 702.8898 cm
+q
+.270588 .305882 .203922 rg
+BT 1 0 0 1 0 3 Tm /F2 10 Tf 13 TL (PROFILE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 50 672.4898 cm
+q
+.145098 .152941 .121569 rg
+BT 1 0 0 1 0 16.9 Tm /F1 9.5 Tf 13.2 TL (Software engineer building web and mobile applications, backend systems, and integrations for business operations.) Tj T* (Experience spans database design, REST APIs, authentication, payments, testing, and deployment.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 50 650.4898 cm
+q
+.270588 .305882 .203922 rg
+BT 1 0 0 1 0 3 Tm /F2 10 Tf 13 TL (SELECTED PROJECTS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 50 620.0898 cm
+q
+BT 1 0 0 1 0 16.9 Tm -0.034422 Tw 13.2 TL /F2 9.5 Tf .145098 .152941 .121569 rg (Titan Verification Center) Tj /F1 9.5 Tf ( - System architecture, database design, and Laravel verification workflows for public device) Tj T* 0 Tw (checks, agent registration, and reviewed ownership transfers.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 50 588.6898 cm
+q
+BT 1 0 0 1 0 16.9 Tm 13.2 TL /F2 9.5 Tf .145098 .152941 .121569 rg (SaukiGlobal) Tj /F1 9.5 Tf ( - Developed a React Native and Expo Android app, integrated backend APIs, tested service workflows,) Tj T* (and deployed to ) Tj (Google Play) Tj (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 50 557.2898 cm
+q
+BT 1 0 0 1 0 16.9 Tm -0.104327 Tw 13.2 TL /F2 9.5 Tf .145098 .152941 .121569 rg (BuyDigital Services) Tj /F1 9.5 Tf ( - Contributed to payment API integrations and workflow automation for a digital services platform) Tj T* 0 Tw (supporting exam PIN vending and payment processing.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 50 535.2898 cm
+q
+.270588 .305882 .203922 rg
+BT 1 0 0 1 0 3 Tm /F2 10 Tf 13 TL (EXPERIENCE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 50 491.6898 cm
+q
+BT 1 0 0 1 0 30.1 Tm 13.2 TL /F2 9.5 Tf .145098 .152941 .121569 rg (Software Engineer) Tj /F1 9.5 Tf ( | Independent Projects & Contract Development | 2021 to present) Tj  T* -0.035101 Tw (Built PHP and MySQL systems for guest records, transaction tracking, and small-business operations, with role-based) Tj T* 0 Tw (workflows and administrative dashboards.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 50 469.6898 cm
+q
+.270588 .305882 .203922 rg
+BT 1 0 0 1 0 3 Tm /F2 10 Tf 13 TL (TECHNICAL SKILLS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 50 426.0898 cm
+q
+BT 1 0 0 1 0 30.1 Tm 13.2 TL /F2 9.5 Tf .145098 .152941 .121569 rg (Backend and data:) Tj /F1 9.5 Tf ( PHP, Laravel, Yii2, Node.js, Firebase, MySQL, REST APIs) Tj  T* /F2 9.5 Tf (Web and mobile:) Tj /F1 9.5 Tf ( JavaScript, TypeScript, React, Vue.js, React Native, Expo, Capacitor) Tj  T* /F2 9.5 Tf (Delivery:) Tj /F1 9.5 Tf ( Git, shared hosting, cloud hosting, VPS, Google Play Console, Apple App Store) Tj T* ET
+Q
+Q
+q
+1 0 0 1 50 404.0898 cm
+q
+.270588 .305882 .203922 rg
+BT 1 0 0 1 0 3 Tm /F2 10 Tf 13 TL (EDUCATION) Tj T* ET
+Q
+Q
+q
+1 0 0 1 50 386.8898 cm
+q
+BT 1 0 0 1 0 3.7 Tm 13.2 TL /F2 9.5 Tf .145098 .152941 .121569 rg (National Diploma in Computer Science) Tj /F1 9.5 Tf ( | Nuhu Bamalli Polytechnic, Zaria | 2024 | Distinction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 50 355.4898 cm
+q
+BT 1 0 0 1 0 16.9 Tm 13.2 TL /F2 9.5 Tf .145098 .152941 .121569 rg (Professional Diploma in Computer Science) Tj /F1 9.5 Tf ( | Iya Abubakar Institute of Computing and ICT, Ahmadu Bello) Tj T* (University | 2022) Tj T* ET
+Q
+Q
+q
+1 0 0 1 50 333.4898 cm
+q
+.270588 .305882 .203922 rg
+BT 1 0 0 1 0 3 Tm /F2 10 Tf 13 TL (ADDITIONAL TRAINING) Tj T* ET
+Q
+Q
+q
+1 0 0 1 50 316.2898 cm
+q
+.145098 .152941 .121569 rg
+BT 1 0 0 1 0 3.7 Tm /F1 9.5 Tf 13.2 TL (Microsoft Power BI for Business Intelligence \(Advanced\), Excel for Data Analysis, Introduction to Statistics) Tj T* ET
+Q
+Q
+ 
+
+endstream
 endobj
 9 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 1932
+/F1 10 0 R
+/F2 11 0 R
 >>
-stream
-GauHLD0+\p&H88.Z!VfE3^@NQ(Ab"`3"6<B*-QYA:;.!<!>X@`P"^n*rqNX,o9)1U(cl(B(tf\YIJ2dU?/&cGa#:[u$uk=G`Jk>8"9(+/okGNF5.LUF5A,/RZftGYD5V5<X')LWm:I=;LQ=%Y=A7$0"FGPF*Y[Rb%N]0kD!L%QK?(%<W,i2f*NqC]#QJ`3J(?qMib+UN>'mHGH6rnT[kc3fTIUZ!BG,od9NXW\J>^ibFpLleWs*nqaFZn7`Fm2\Cup*3B8b%_n*.K8E`Q\REq\TimJM'l$8B5+pkoDIb&Bkf1a1d+U1bG4fnA@%p_U$?e\#^#<hj!AX4`^_1R:_oF;ui]S]$1MeUY^8j>WrRe+#(A]h9$9VWh2I]YMbtGr?n1`VXX403`3s]/LFC^V+g*D/_Q@pMfbDe*FX(4Uq[edH:SB=SD^oB^W0G`N!+L]&hkhbDpOd60eO)16`NF!<"ZCCXXQ%&5pUs$!OhIj-3!+=lDP0;^VpeGQT3#;Lr-]M'?FRBdFI06'E$)bK,o@WG!h+Q23-\qF[g8dg,0ZHTF+/_%MC($:DZ"'Hgm$0sq/';4@h%(8(e%,RG1F8OX!qp#"?'(,XqnXMcA-',o=f_)rq,R1#8Y18TR(#uG%C/B]1*`*>Q^9*QYF8L1f'&54gk<s<ebPn;Rd>\T__P)*Mg'Fg9]7>;RE*i)sAU/fG@?ofHkH,Q%=[HB@QM:iN`lM_'&Zs#s(>PDReK(!l$msEkc+2#3l^[DmKf[pIWM\CS*GpQ0.YG>uF>Zs4"*6)ct_Pj!0f8W%B^2PfR3\SD/O"PO_4Au6!m0%rT`r\/u!>cV84&-ILF\6/,k@kh/>d9ZEc/VOF3>W%oXT327"L.91f\`IK0Q&SJj?[M@HN%t(_(++`'akdR#p7BSMMbpfKa!<8BX$q1>]7AAi,'?e!UcauMPPdHP;<GMF-/O";%"Gm(%h`D#RLN-'](DA]QF;6XeUFl4`5<bVRP<&b1i0V!GJcHJg]\Q;O,Oc1ar#10Nn?f-G/pUrA&IXY7+L&.u>Qi?A@@ZJp:CLjpFbAU(^B\\5,A!p"HZ7p1Z3TFA[Hl+*B>OAJ6S<[$46"!,DP+k0*G1hSVKW6hep#46jBN?$F')>-%T;m]=0/!I)6[INp8#M!h=XmD+\5NNGgAgfpXK\l^oT(T+p7SYl!t/B?%n^edja<\0nj]l@RffZh9aYq>%P8YD,l[c7(D,%s0d\g/n9eNgDcLf3&b_BbsU_5>O/D`<Ds*R*+5W]+%l[^9oW$T)*Gk?*WWc_PCqLU"k,.Jmec"Q<bYqb$JJH/4D%XLBQj0i\gMKM+RJ8PM!?#etK`quoR12s+;68Q7m'5^2jF%5ACBLe;c8(pa@i+K&^E6n#AqfW(FP7=:-j9+`[6Qg\jHD&J+3@78"4:F2A7.?\F(rr<dc$Y`GDGck\YE75AMS5Yto91\5lZ>*K+'er(n5*l&J0clJ8+)lriA1tdBo=6*.knV#cIjtna:_fVA1b\&3W$ZMt!F4k+7f&WPZ-6Pji3\PEfJns"SXTNV0!,kUf70=C.lN@]KEW5(&rc91R'H;rBZV"<(%IrF!n?qKW-bR)%1.rY36^I"JjI(XP-&$n9Ee3>dg_@T`H;1pf^8Dl_7#<?9]2ag%E5ti=C<7mYr'0);Q4n7Kd$.i/M)L^nRe,r04d;80T<IA6!9oj]rhlONm,?QJne^LGBl;HnJQR;p9r&?"NSo.Ri.F$pSi[,RnOQ=!YWrVFn/^=o&?ZM!7D1B>PmUjI;L0MTf*eZ&PkiWVejF$%*'8+g9_GGUGK2.jN/'/kdGmjCnINW\_i*o#&Ul".(GjIFm[R-p8R(qc,4n;qbR9@2G%76h@ojrN!!G1jDRE5kO].=[JP(SWpuK@K^!bWYm#P=nJ&dpWpSDPpOM:15B]+Pc8XVdJ[>@VUUMpD~>endstream
 endobj
 10 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 1064
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
-stream
-GauI59iKe#&;KZOMEQ)KLXO7'?cU*)BK?/\ls;``#['&8[M0u)R[O0MXrL?4%?9\AAiu9<Z).-"]C3?Ud)LuCT<&#0`UIk6J9VX'5l=P&iYdF>dJXZ&HEuk-FpHlS5d*OMae1`2Fa+iAP$`Qu5/[UWGDiNhg2=NGFm0<<Qdc?gBb"XXb#L`9ft&.VO$Q;B<3[o)f+9[Q-0)6%]H/%[r!dl@Sp"k.Ks<s"\'*7&D%MN\j8S.W#pWX#4;T\Qq:]k4.g8"cY>bl:5JV&]I^Ke18%`WMFs3#T;oH4I.6$BHjpo,j-*!<'Xsjctar>Xs2,#:t>'pl\qQr`5%,SfWLehD<qXTffgJ?6<S@p&u^?0?)Ni5Q*WN,DI[T3qliostl%--U&AQ0mPmlAg#h6]8XkMit:Ut9r.jZ,fF]d(O$2#`5A>FA3^>3ALh3JT>sQu"=ug'VHM<NuV.X[iVjR/CN2.c&oSj6brJ%Jn?NkW;N'0*KbHW77Oi*jGr?;b.XPPt":I`3-Ed-'N2"f7dZ(5k.WJKDb'9jC_3/_s`QI($p#+NA)<mOiUo_Qn:1N)5gZ4e7nuI!s"O^^fX42P-VAaYR2S4Snk?DYF(qdTd&?SgZ]4e3_0t1_B9?/0OJ(5`a:SsUsg@^pY<KAEPE`pDgVAHbY^$4??0Q7,6XjJWo210Z,)<4[_W-41ueb+(8A4A]Ke-<J"!-b?`^$g=WK0[p]j?Ah_YWOc+,ic"\76:K3VJ.Xt+YtZ)6m5c)V;"%92crW8@LXhQ<W1h("]-KQEeAJK^cp0*FXcVKDBAWGD"33t9/^)Oc=VKX5n_K.(&ZQfmn:)N++_Sc>;?QSJIk_^"La/s?gFcmU=q1Xm5mY(I')'>nYr_!V4']1i;NFCV+<'e9`d4X=nP#opFB(3Wuk'kOI7h5kCbq?K:YS"^*I%MVHqe4F-0L5q=oU*uj"=)Cb#Iu!Y+!9l@p%+CI$Cjk5D`.Y=uGFeXPVWNTLPN/FdGJNF"hM<.%>_BL[)Ht!%S:p).6!2#/cMIF5lm<c;:m'3G4?Sr\XJk:UDZ$()((uXV!rfcB8H~>endstream
+endobj
+11 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Author (Mubarak Kasim Maishanu)
+/CreationDate (D\07220261110134615\05301\04700\047)
+/Creator (\050unspecified\051)
+/Keywords ()
+/ModDate (D\07220261110134615\05301\04700\047)
+/Producer (ReportLab PDF Library \055 \050opensource\051)
+/Subject (\050unspecified\051)
+/Title (Mubarak Kasim Maishanu \055 Software Engineer)
+/Trapped /False
+>>
 endobj
 xref
-0 11
+0 13
 0000000000 65535 f 
-0000000073 00000 n 
-0000000114 00000 n 
-0000000221 00000 n 
-0000000333 00000 n 
-0000000536 00000 n 
-0000000740 00000 n 
-0000000808 00000 n 
-0000001091 00000 n 
-0000001156 00000 n 
-0000003179 00000 n 
+0000000015 00000 n 
+0000000083 00000 n 
+0000000142 00000 n 
+0000000377 00000 n 
+0000000566 00000 n 
+0000000765 00000 n 
+0000000963 00000 n 
+0000001215 00000 n 
+0000005355 00000 n 
+0000005398 00000 n 
+0000005506 00000 n 
+0000005619 00000 n 
 trailer
 <<
-/ID 
-[<1fb38795beaf94ed6e23821ba01a5972><1fb38795beaf94ed6e23821ba01a5972>]
-% ReportLab generated PDF document -- digest (http://www.reportlab.com)
-
-/Info 7 0 R
-/Root 6 0 R
-/Size 11
+/Size 13
+/Root 1 0 R
+/Info 12 0 R
+/ID [ <700742d27769d9d893602d6da3401b14> <700742d27769d9d893602d6da3401b14> ]
 >>
 startxref
-4335
+5977
 %%EOF
